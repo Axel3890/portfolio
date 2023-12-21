@@ -1,0 +1,50 @@
+.image{
+    border-radius: 69% 31% 70% 30% / 37% 64% 36% 63% ;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5em;
+    padding-top: 5%;
+    background: linear-gradient(90deg,#00dbde, #fc00ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em; /* Tamaño de fuente adaptable */
+    text-align: center; /* Centrar el texto */
+    max-width: 800px; /* Ancho máximo del contenedor para evitar que el texto se extienda demasiado en pantallas grandes */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Añadir algún espacio alrededor del texto */
+    padding-bottom: 17%;
+}
+
+h4{text-align: center;}
+
+.inicio{
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 5px;
+}
+
+.tecn{
+    flex-grow: 1;
+    flex-basis: 200;
+}
