@@ -57,19 +57,19 @@ const Sendemail = () => {
             <form class="form" onSubmit={handleSubmit}>
                 <div class="form-group">
                 <label for="email">Nombre</label>
-                <input required="" name="nombre" id="nombre" type="text" value={formData.nombre} onChange={handleInputChange}/>
+                <input required name="nombre" id="nombre" type="text" value={formData.nombre} onChange={handleInputChange}/>
                 </div>
                 <div class="form-group">
                 <label for="email">email</label>
-                <input required="" name="email" id="email" type="text" value={formData.email} onChange={handleInputChange}/>
+                <input required name="email" id="email" type="text" value={formData.email} onChange={handleInputChange}/>
                 </div>
                 <div class="form-group">
                 <label for="Asunto">Asunto</label>
-                <input required="" name="asunto" id="asunto" type="text" value={formData.asunto} onChange={handleInputChange}/>
+                <input required name="asunto" id="asunto" type="text" value={formData.asunto} onChange={handleInputChange}/>
                 </div>
                 <div class="form-group">
                 <label for="textarea">¿Como puedo ayudarte?</label>
-                <textarea required="" cols="50" rows="10" id="textarea" name="comment" value={formData.comment} onChange={handleInputChange}></textarea>
+                <textarea required cols="50" rows="10" id="textarea" name="comment" value={formData.comment} onChange={handleInputChange}></textarea>
                 </div>
                 <button type="submit" className="form-submit-btn" disabled={isLoading}>
             {isLoading ? 'Enviando...' : 'Enviar'}
