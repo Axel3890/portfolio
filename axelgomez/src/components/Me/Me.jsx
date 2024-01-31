@@ -1,5 +1,5 @@
 import "./Me.css"
-const yo = require("../../utils/Axel.jpg")
+const yo = require("../../utils/fotos.jpg")
 
 const Me = () => {
     return(
