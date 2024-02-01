@@ -2,7 +2,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return(
-      <><div className="title"><p style={{ color: "white", textAlign: "center", fontSize: "1.5em", marginBottom: "10px" }}>O escribeme por cualquiera de mis redes</p></div><div id="contact" className="contact" style={{ backgroundColor: "Black" }}>
+      <><div className="title"><p style={{ color: "white", textAlign: "center", fontSize: "1.5em", marginBottom: "10px" }}>O escribeme por cualquiera de mis redes</p></div><div id="contact" className="contact" style={{ backgroundColor: "rgb(29, 29, 29)" }}>
         <div class="cardcontact">
           <a class="social-link1" href="https://www.instagram.com/axel.gommez" target="blank">
             <svg style={{ color: 'white' }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

@@ -42,8 +42,8 @@ const Jobs = () => {
                         <p class="heading">Nutri Life </p>
                         <img className="imagenes" src={nutri} alt="Nutri Life"></img>
                         <p class="para">
-                        Nutri Life es mucho más que una simple página web de recetas. Es una herramienta completa diseñada para simplificar tu vida saludable. Con un banco de más de 2 millones de recetas, ahora puedes descubrir platos deliciosos que se ajusten perfectamente a tus necesidades calóricas diarias.
-                        Tecnologias usadas: Desarrollado con las últimas tecnologías en el frontend y backend, incluyendo React, HTML, CSS, Node.js, Express, Sequelize, PostgreSQL, y Firebase para una experiencia sin fisuras.
+                        Página web de recetas. Es una herramienta completa diseñada para simplificar tu vida. descubre platos deliciosos que se ajusten perfectamente a tus necesidades calóricas diarias.
+                        Frontend y Backend: React, HTML, CSS, Node.js, Express, Sequelize, PostgreSQL, y Firebase
                         </p>
                         <div className="buttons">
                         <button class="btn"><a href="https://github.com/Axel3890/nutrilife-front" target="blank">Repositorio Front</a></button>

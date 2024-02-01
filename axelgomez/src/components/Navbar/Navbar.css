@@ -4,7 +4,7 @@
     scroll-behavior: smooth;
   }
 nav{
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
 }
 
