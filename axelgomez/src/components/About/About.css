@@ -1,0 +1,23 @@
+.estudios {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.estudio {
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.estudio h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.estudio p {
+  color: #666;
+  margin-bottom: 0;
+}
