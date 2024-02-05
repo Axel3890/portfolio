@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Me></Me>
-      <About></About>
       <Jobs></Jobs>
       <Sendemail></Sendemail>
       <Contact></Contact>
